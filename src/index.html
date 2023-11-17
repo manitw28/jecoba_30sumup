@@ -1,39 +1,122 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <title>Page Title</title>
     <link rel="stylesheet" type="text/css" href="/src/styles.css" />
   </head>
   <body>
-    <h1>Facebook</h1>
-    <div>
-      <img width="100%" src="/src/a.jpg" alt="" />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ullam
-        beatae molestias. Quae explicabo laborum vel quia ut deleniti, ipsam
-        omnis, totam sit voluptatem earum facilis. Natus recusandae numquam
-        suscipit.
-      </p>
-    </div>
+    <table>
+      <tr>
+        <th>hellow world</th>
+        <th>hellow world</th>
+        <th>hellow world</th>
+      </tr>
+      <tr>
+        <td>hellow world</td>
+        <td>hellow world</td>
+        <td>hellow world</td>
+      </tr>
+      <tr>
+        <td>hellow world</td>
+        <td>hellow world</td>
+        <td>hellow world</td>
+      </tr>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th>구분</th>
+          <th>이름</th>
+          <th>판매량</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>해리포터</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>헝거게임</td>
+          <td>200</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>반지의 제왕</td>
+          <td>300</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">총 판매량</td>
+          <td>600</td>
+        </tr>
+      </tfoot>
+    </table>
+    <form action="" method="get">
+      <label for="id">아이디</label>
+      <input type="text" name="아이디" id="id" /><br />
+      <label for="pw">패스워드</label>
+      <input type="password" name="패스워드" id="pw" /><br />
+      <label for="male">남</label>
+      <input type="radio" name="성별" id="male" value="남" /><br />
+      <label for="female">여</label>
+      <input type="radio" name="성별" id="female" value="여" /><br />
+      <label for="time">시간</label>
+      <input type="time" name="시간" id="time" /><br />
+      <!-- <label for="id">아이디</label> -->
+      <!-- <input type="range" name="" id=""><br> -->
+      <!-- <label for="id">아이디</label> -->
+      <!-- <input type="color" name="" id=""><br> -->
+      <!-- <label for="id">아이디</label> -->
+      <!-- <input type="radio" name="" id=""><br> -->
+      <p>즐겨 사용하는 프로그래밍 언어</p>
+      <input type="checkbox" name="언어" id="language" value="python" />
+      <label for="language">Python</label><br />
+      <input type="checkbox" name="언어" id="language" value="javascript" />
+      <label for="language">Javascript</label><br />
+      <input type="checkbox" name="언어" id="language" value="c" />
+      <label for="language">C</label><br />
+      <textarea name="" id="" cols="30" rows="10"></textarea><br />
+      <input type="submit" value="회원가입" /><br />
+    </form>
 
-    <div>
-      <img width="100%" src="/src/a.jpg" alt="" />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ullam
-        beatae molestias. Quae explicabo laborum vel quia ut deleniti, ipsam
-        omnis, totam sit voluptatem earum facilis. Natus recusandae numquam
-        suscipit.
-      </p>
-    </div>
+    <header>
+      <h1>Facebook</h1>
+    </header>
 
-    <div>
-      <img width="100%" src="/src/a.jpg" alt="" />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ullam
-        beatae molestias. Quae explicabo laborum vel quia ut deleniti, ipsam
-        omnis, totam sit voluptatem earum facilis. Natus recusandae numquam
-        suscipit.
-      </p>
-    </div>
+    <section>
+      <article>
+        <img width="100%" src="/src/a.jpg" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ullam
+          beatae molestias. Quae explicabo laborum vel quia ut deleniti, ipsam
+          omnis, totam sit voluptatem earum facilis. Natus recusandae numquam
+          suscipit.
+        </p>
+      </article>
+
+      <article>
+        <img width="100%" src="/src/a.jpg" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ullam
+          beatae molestias. Quae explicabo laborum vel quia ut deleniti, ipsam
+          omnis, totam sit voluptatem earum facilis. Natus recusandae numquam
+          suscipit.
+        </p>
+      </article>
+
+      <article>
+        <img width="100%" src="/src/a.jpg" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ullam
+          beatae molestias. Quae explicabo laborum vel quia ut deleniti, ipsam
+          omnis, totam sit voluptatem earum facilis. Natus recusandae numquam
+          suscipit.
+        </p>
+      </article>
+    </section>
   </body>
 </html>
